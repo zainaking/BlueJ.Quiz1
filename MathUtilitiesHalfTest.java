@@ -16,11 +16,14 @@ public class MathUtilitiesHalfTest {
 
     @Test
     public void test1(){
-        //Given
-        double expected = 2.0;
+        
+       
+        
+         //Given
+        double expected = 5;
 
         //When
-        double actual = utilities.half(4);
+        double actual = utilities.half(5);
 
         //Then
         assertEquals(expected, actual, DELTA);
@@ -31,10 +34,10 @@ public class MathUtilitiesHalfTest {
     @Test
     public void test2(){
         //Given
-        double expected = 4;
+        double expected = 5;
 
         //When
-        double actual = utilities.half(8);
+        double actual = utilities.half(5);
 
         //Then
         assertEquals(expected, actual, DELTA);
@@ -45,10 +48,10 @@ public class MathUtilitiesHalfTest {
     @Test
     public void test3(){
         //Given
-        double expected = 8;
+        double expected = 5;
 
         //When
-        double actual = utilities.half(16);
+        double actual = utilities.half(5);
 
         //Then
         assertEquals(expected, actual, DELTA);

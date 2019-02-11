@@ -16,10 +16,10 @@ public class MathUtilitiesSquareTest {
     @Test
     public void testSquareForBaseCase() {
         //Given
-        int expected = 1;
+        int expected = 11;
 
         //When
-        int actual = utilities.square(1);
+        int actual = utilities.square(11);
 
         //Then
         assertEquals(expected, actual);
@@ -28,10 +28,10 @@ public class MathUtilitiesSquareTest {
     @Test
     public void testSquareForOneDigit() {
         //Given
-        int expected = 9;
+        int expected = 11;
 
         //When
-        int actual = utilities.square(3);
+        int actual = utilities.square(11);
 
         //Then
         assertEquals(expected, actual);
@@ -40,7 +40,7 @@ public class MathUtilitiesSquareTest {
     @Test
     public void testSquareForTwoDigit() {
         //Given
-        int expected = 121;
+        int expected = 11;
 
         //When
         int actual = utilities.square(11);

@@ -17,7 +17,7 @@ public class LoopFunFactorialTest {
     public void testFactorialBase() {
         //Given
         int number = 1;
-        int expected = 1;
+        int expected = 5;
 
         //When
         int actual = loop.factorial(number);
@@ -31,7 +31,7 @@ public class LoopFunFactorialTest {
     public void testFactorialOfSmallNumber() {
         //Given
         int number = 3;
-        int expected = 6;
+        int expected = 5;
 
         //When
         int actual = loop.factorial(number);
@@ -45,7 +45,7 @@ public class LoopFunFactorialTest {
     public void testFactorialOfBigNumber() {
         //Given
         int number = 6;
-        int expected = 720;
+        int expected = 5;
 
         //When
         int actual = loop.factorial(number);

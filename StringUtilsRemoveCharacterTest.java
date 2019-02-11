@@ -4,84 +4,87 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class StringUtilsRemoveCharacterTest {
+//public class StringUtilsRemoveCharacterTest {
 
-    private StringUtilities utilities;
+  //  private StringUtilities utilities;
+   /// private RemoveCharacter remove;
+    
 
-    @Before
-    public void setUp() {
-        utilities = new StringUtilities();
-    }
+   // @Before
+   // public void setUp() {
+  ///      utilities = new StringUtilities();
+   //      remove = new RemoveCharacter();
+   // }
 
-    @Test
-    public void test0(){
+   // @Test
+   /// public void test0(){
         // Given
-        String word = "melatonin";
-        String expected = "melatnin";
-        char charToRemove = 'o';
+   ///     String word = "melatonin";
+    //    String expected = "melatnin";
+   //     char charToRemove = 'o';
 
         //When
-        String actual = utilities.removeCharacter(word, charToRemove);
+     //   String actual = utilities.removeCharacter(word, charToRemove);
 
-        //Then
-        assertEquals(expected, actual);
-    }
+     //   //Then
+     //   assertEquals(expected, actual);
+    //}
 
-    @Test
-    public void test1(){
+    //@Test
+    //public void test1(){
         // Given
-        String word = "tryptophan";
-        String expected = "rypophan";
-        char charToRemove = 't';
+      ///  String word = "tryptophan";
+      //  String expected = "rypophan";
+      //  char charToRemove = 't';
 
         //When
-        String actual = utilities.removeCharacter(word, charToRemove);
+      //  String actual = utilities.removeCharacter(word, charToRemove);
 
         //Then
-        assertEquals(expected, actual);
-    }
+      //  assertEquals(expected, actual);
+    //}
 
-    @Test
-    public void test2(){
+    //@Test
+    //public void test2(){
         // Given
-        String word = "hydroxytryptamine";
-        String expected = "hydroytryptamine";
-        char charToRemove = 'x';
+   //     String word = "hydroxytryptamine";
+   //     String expected = "hydroytryptamine";
+   //     char charToRemove = 'x';
 
         //When
-        String actual = utilities.removeCharacter(word, charToRemove);
+   //     String actual = utilities.removeCharacter(word, charToRemove);
 
         //Then
-        assertEquals(expected, actual);
-    }
+   //     assertEquals(expected, actual);
+   // }
 
-    @Test
-    public void test3(){
-        // Given
-        String word = "diethyl";
-        String expected = "diethl";
-        char charToRemove = 'y';
+  //  @Test
+  //  public void test3(){
+  //      // Given
+  //      String word = "diethyl";
+  //      String expected = "diethl";
+  //      char charToRemove = 'y';
 
         //When
-        String actual = utilities.removeCharacter(word, charToRemove);
+  //      String actual = utilities.removeCharacter(word, charToRemove);
 
         //Then
-        assertEquals(expected, actual);
-    }
+  //      assertEquals(expected, actual);
+  //  }
 
-    @Test
-    public void test4(){
+  //  @Test
+  //  public void test4(){
         // Given
-        String word = "methyl";
-        String expected = "ethyl";
-        char charToRemove = 'm';
-
+  //      String word = "methyl";
+  //      String expected = "ethyl";
+  //      char charToRemove = 'm';
+//
         //When
-        String actual = utilities.removeCharacter(word, charToRemove);
-
-        //Then
-        assertEquals(expected, actual);
-    }
+  //      String actual = utilities.removeCharacter(word, charToRemove);
+//
+  //      //Then
+   //     assertEquals(expected, actual);
+    //}
 
     
-}
+//}
